@@ -6,7 +6,7 @@ import Alea from './Alea';
 
 
 ReactDOM.render(
-  <Alea />,
+  <><meta httpEquiv='cache-control' content='no-cache' /><meta httpEquiv='expires' content='0' /><meta httpEquiv='pragma' content='no-cache' /><Alea /></>,
   document.getElementById('root')
 );
 

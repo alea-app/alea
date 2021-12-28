@@ -1,6 +1,5 @@
 import React from 'react';
 import CanvasJSReact from './canvasjs.react';
-var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class Chart extends React.Component {
@@ -11,10 +10,10 @@ class Chart extends React.Component {
                 text: this.props.title
             },
             axisY: {
-                title: "Number of Customers"
+                title: "Damage"
             },
             axisX: {
-                title: "Test"
+                title: "Armor Class"
             },
             toolTip: {
                 shared: true
